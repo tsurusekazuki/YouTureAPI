@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'youturedb',
-        'USER': 'tsurusekazuki',
-        'PASSWORD': 'kazuki1012',
+        'USER': 'root',
+        'PASSWORD': '',
         'HOST': '',
         'PORT': '',
         'TEST': {
