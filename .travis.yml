@@ -1,10 +1,13 @@
 language: python
 python:
   - "3.6"
+services: mysql
 env:
   - DJANGO_VERSION=2.1
 install:
   - pip install -r requirements.txt
+before_script:
+  - mysql -e 'create database youturedb;' -u tsurusekazuki
 script:
   - python manage.py migrate
   - python manage.py test
