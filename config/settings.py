@@ -84,8 +84,8 @@ DATABASES = {
         'HOST': '',
         'PORT': '',
         'TEST': {
-            'NAME': 'test_youturedb'
-        }
+            'NAME': 'test_youturedb',
+        },
     }
 }
 
