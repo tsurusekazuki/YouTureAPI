@@ -7,7 +7,7 @@ env:
 install:
   - pip install -r requirements.txt
 before_script:
-  - mysql -e 'create database youturedb;' -u tsurusekazuki
+  - mysql -e 'create database youturedb;' -u root
 script:
   - python manage.py migrate
   - python manage.py test
