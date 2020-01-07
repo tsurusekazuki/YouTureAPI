@@ -1,4 +1,4 @@
-Django==2.1.0
+Django>=2.1.15
 entrypoints==0.3
 Janome==0.3.9
 japanize-matplotlib==1.0.5
