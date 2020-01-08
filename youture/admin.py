@@ -1,7 +1,6 @@
 from django.contrib import admin
 
-from .models import User, YoutubeFuture, \
-    YoutubeFutureFolder, YoutubeFutureResult
+from .models import User, YoutubeFuture, YoutubeFutureFolder, YoutubeFutureResult
 
 
 @admin.register(User)
