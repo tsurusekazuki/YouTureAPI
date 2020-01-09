@@ -1,6 +1,8 @@
 # YouTureAPI
 
-YouTureのバックエンド
+このリポジトリはYouTureのバックエンドです。
+
+- [YouTureのフロントエンド](https://github.com/tsurusekazuki/Youture)
 
 # ブランチ名
 
